@@ -6,8 +6,9 @@ const Header = () => {
     return (
         <div>
             <h1 className='text-4xl my-3'>T-Shirt Mania</h1>
-            <nav>
-                <CustomLink to='/'>Home</CustomLink>
+            <nav className='flex justify-center m-5'>
+                <CustomLink className='mr-3' to='/'>Home</CustomLink>
+                <CustomLink to='/OrderReview'>Order Review</CustomLink>
             </nav>
         </div>
     );
